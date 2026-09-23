@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LoL Fantasy — League of Legends stats &amp; free fantasy</title>
+    <meta
+      name="description"
+      content="LoL Fantasy is a community app for League of Legends esports fans: pro and team profiles, patch tracking, champion tier list, and a free fantasy mode. Independent — not affiliated with Riot Games."
+    />
+    <meta property="og:title" content="LoL Fantasy — League of Legends stats &amp; free fantasy" />
+    <meta
+      property="og:description"
+      content="A community app for League of Legends esports fans: pro and team profiles, patch tracking, champion tier list, and a free fantasy mode."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="./">
+          <span class="brand-mark">LF</span>
+          <span>LoL Fantasy</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#features">Features</a>
+          <a href="#legal">Legal</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Product introduction">
+        <div class="container hero-inner">
+          <div>
+            <div class="eyebrow">For League of Legends fans</div>
+            <h1>
+              Esports stats and a
+              <span class="accent">free fantasy</span> mode, in one app.
+            </h1>
+            <p class="lede">
+              LoL Fantasy is a community app for League of Legends esports fans. Browse profiles of
+              pro players and teams across the major regions, follow patch changes and the champion
+              tier list, and play a free fantasy mode against friends — no purchases, no wagering.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-ghost" href="#features">See what's inside</a>
+              <a class="btn btn-ghost" href="#legal">Legal &amp; disclaimers</a>
+            </div>
+          </div>
+
+          <div class="mockup-stack" aria-hidden="true">
+            <!-- Mockup 1: Home / Live -->
+            <div class="mockup">
+              <svg viewBox="0 0 240 480" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#13131a" />
+                    <stop offset="100%" stop-color="#0a0a0f" />
+                  </linearGradient>
+                </defs>
+                <rect width="240" height="480" fill="url(#bg1)" />
+                <!-- status bar -->
+                <rect x="16" y="18" width="40" height="6" rx="3" fill="#2a2a35" />
+                <circle cx="220" cy="22" r="3" fill="#C89B3C" />
+                <!-- header -->
+                <text
+                  x="16"
+                  y="58"
+                  fill="#f1f5f9"
+                  font-family="Inter"
+                  font-size="14"
+                  font-weight="700"
+                >
+                  Home
+                </text>
+                <text x="16" y="74" fill="#6b7280" font-family="Inter" font-size="9">
+                  Live matches and your fantasy
+                </text>
+                <!-- live card -->
+                <rect
+                  x="16"
+                  y="92"
+                  width="208"
+                  height="86"
+                  rx="10"
+                  fill="#1a1a23"
+                  stroke="rgba(200,155,60,0.18)"
+                />
+                <circle cx="28" cy="106" r="3" fill="#0AC8B9" />
+                <text
+                  x="38"
+                  y="110"
+                  fill="#0AC8B9"
+                  font-family="Inter"
+                  font-size="8"
+                  font-weight="700"
+                >
+                  LIVE · LCK
+                </text>
+                <text
+                  x="28"
+                  y="138"
+                  fill="#f1f5f9"
+                  font-family="Inter"
+                  font-size="13"
+                  font-weight="700"
+                >
+                  T1
+                </text>
+                <text
+                  x="56"
+                  y="138"
+                  fill="#C89B3C"
+                  font-family="Inter"
+                  font-size="13"
+                  font-weight="700"
+                >
+                  2
+                </text>
+                <text
+                  x="180"
+                  y="138"
+                  fill="#C89B3C"
+                  font-family="Inter"
+                  font-size="13"
+                  font-weight="700"
+                  text-anchor="end"
+                >
+                  1
+                </text>
+                <text
+                  x="198"
+                  y="138"
+                  fill="#f1f5f9"
+                  font-family="Inter"
+                  font-size="13"
+                  font-weight="700"
+                >
+                  GEN
+                </text>
+                <rect x="28" y="152" width="184" height="3" rx="1.5" fill="#2a2a35" />
+                <rect x="28" y="152" width="122" height="3" rx="1.5" fill="#0AC8B9" />
+                <text x="28" y="168" fill="#6b7280" font-family="Inter" font-size="8">
+                  Game 3 · 32:14
+                </text>
+
+                <!-- section: Fantasy -->
+                <text
+                  x="16"
+                  y="206"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="9"
+                  letter-spacing="1.2"
+                >
+                  YOUR FANTASY
+                </text>
+                <rect
+                  x="16"
+                  y="216"
+                  width="208"
+                  height="72"
+                  rx="10"
+                  fill="#1a1a23"
+                  stroke="rgba(200,155,60,0.18)"
+                />
+                <text
+                  x="28"
+                  y="238"
+                  fill="#f1f5f9"
+                  font-family="Inter"
+                  font-size="11"
+                  font-weight="700"
+                >
+                  Summer Friends League
+                </text>
+                <text x="28" y="252" fill="#6b7280" font-family="Inter" font-size="9">
+                  Week 4 · rank #3 of 10
+                </text>
+                <rect x="28" y="262" width="80" height="18" rx="9" fill="rgba(200,155,60,0.15)" />
+                <text
+                  x="68"
+                  y="274"
+                  fill="#C89B3C"
+                  font-family="Inter"
+                  font-size="9"
+                  font-weight="700"
+                  text-anchor="middle"
+                >
+                  148 pts this week
+                </text>
+
+                <!-- section: Trending -->
+                <text
+                  x="16"
+                  y="316"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="9"
+                  letter-spacing="1.2"
+                >
+                  TRENDING
+                </text>
+                <rect
+                  x="16"
+                  y="326"
+                  width="208"
+                  height="44"
+                  rx="10"
+                  fill="#1a1a23"
+                  stroke="rgba(200,155,60,0.18)"
+                />
+                <circle cx="36" cy="348" r="12" fill="#2a2a35" />
+                <text
+                  x="36"
+                  y="352"
+                  fill="#C89B3C"
+                  font-family="Inter"
+                  font-size="9"
+                  font-weight="700"
+                  text-anchor="middle"
+                >
+                  AHR
+                </text>
+                <text
+                  x="56"
+                  y="346"
+                  fill="#f1f5f9"
+                  font-family="Inter"
+                  font-size="11"
+                  font-weight="700"
+                >
+                  Ahri
+                </text>
+                <text x="56" y="358" fill="#6b7280" font-family="Inter" font-size="9">
+                  Mid · 54.1% WR · S tier
+                </text>
+
+                <rect
+                  x="16"
+                  y="376"
+                  width="208"
+                  height="44"
+                  rx="10"
+                  fill="#1a1a23"
+                  stroke="rgba(200,155,60,0.18)"
+                />
+                <circle cx="36" cy="398" r="12" fill="#2a2a35" />
+                <text
+                  x="36"
+                  y="402"
+                  fill="#0AC8B9"
+                  font-family="Inter"
+                  font-size="9"
+                  font-weight="700"
+                  text-anchor="middle"
+                >
+                  JIN
+                </text>
+                <text
+                  x="56"
+                  y="396"
+                  fill="#f1f5f9"
+                  font-family="Inter"
+                  font-size="11"
+                  font-weight="700"
+                >
+                  Jinx
+                </text>
+                <text x="56" y="408" fill="#6b7280" font-family="Inter" font-size="9">
+                  ADC · 51.7% WR · A tier
+                </text>
+
+                <!-- tab bar -->
+                <rect x="0" y="438" width="240" height="42" fill="#0a0a0f" />
+                <line x1="0" y1="438" x2="240" y2="438" stroke="rgba(200,155,60,0.18)" />
+                <circle cx="32" cy="458" r="3" fill="#C89B3C" />
+                <text
+                  x="32"
+                  y="472"
+                  fill="#C89B3C"
+                  font-family="Inter"
+                  font-size="7"
+                  text-anchor="middle"
+                  font-weight="700"
+                >
+                  Home
+                </text>
+                <text
+                  x="80"
+                  y="472"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="7"
+                  text-anchor="middle"
+                >
+                  Esports
+                </text>
+                <text
+                  x="120"
+                  y="472"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="7"
+                  text-anchor="middle"
+                >
+                  Meta
+                </text>
+                <text
+                  x="160"
+                  y="472"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="7"
+                  text-anchor="middle"
+                >
+                  Fantasy
+                </text>
+                <text
+                  x="208"
+                  y="472"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="7"
+                  text-anchor="middle"
+                >
+                  Profile
+                </text>
+              </svg>
+            </div>
+
+            <!-- Mockup 2: Champions tier list -->
+            <div class="mockup">
+              <svg viewBox="0 0 240 480" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#13131a" />
+                    <stop offset="100%" stop-color="#0a0a0f" />
+                  </linearGradient>
+                </defs>
+                <rect width="240" height="480" fill="url(#bg2)" />
+                <rect x="16" y="18" width="40" height="6" rx="3" fill="#2a2a35" />
+                <circle cx="220" cy="22" r="3" fill="#C89B3C" />
+
+                <text
+                  x="16"
+                  y="58"
+                  fill="#f1f5f9"
+                  font-family="Inter"
+                  font-size="14"
+                  font-weight="700"
+                >
+                  Meta
+                </text>
+                <text x="16" y="74" fill="#6b7280" font-family="Inter" font-size="9">
+                  Patch 14.11 · Mid lane
+                </text>
+
+                <!-- filter pills -->
+                <rect x="16" y="86" width="44" height="20" rx="10" fill="rgba(200,155,60,0.15)" />
+                <text
+                  x="38"
+                  y="100"
+                  fill="#C89B3C"
+                  font-family="Inter"
+                  font-size="9"
+                  font-weight="700"
+                  text-anchor="middle"
+                >
+                  Mid
+                </text>
+                <rect
+                  x="66"
+                  y="86"
+                  width="44"
+                  height="20"
+                  rx="10"
+                  fill="#1a1a23"
+                  stroke="rgba(200,155,60,0.18)"
+                />
+                <text
+                  x="88"
+                  y="100"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="9"
+                  text-anchor="middle"
+                >
+                  Top
+                </text>
+                <rect
+                  x="116"
+                  y="86"
+                  width="44"
+                  height="20"
+                  rx="10"
+                  fill="#1a1a23"
+                  stroke="rgba(200,155,60,0.18)"
+                />
+                <text
+                  x="138"
+                  y="100"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="9"
+                  text-anchor="middle"
+                >
+                  Jungle
+                </text>
+                <rect
+                  x="166"
+                  y="86"
+                  width="44"
+                  height="20"
+                  rx="10"
+                  fill="#1a1a23"
+                  stroke="rgba(200,155,60,0.18)"
+                />
+                <text
+                  x="188"
+                  y="100"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="9"
+                  text-anchor="middle"
+                >
+                  ADC
+                </text>
+
+                <!-- tier rows -->
+                <g font-family="Inter">
+                  <!-- S tier -->
+                  <rect
+                    x="16"
+                    y="122"
+                    width="208"
+                    height="56"
+                    rx="10"
+                    fill="#1a1a23"
+                    stroke="rgba(200,155,60,0.18)"
+                  />
+                  <rect x="16" y="122" width="28" height="56" rx="10" fill="#C89B3C" />
+                  <text
+                    x="30"
+                    y="156"
+                    fill="#0a0a0f"
+                    font-size="16"
+                    font-weight="800"
+                    text-anchor="middle"
+                  >
+                    S
+                  </text>
+                  <circle cx="62" cy="150" r="13" fill="#2a2a35" />
+                  <text
+                    x="62"
+                    y="154"
+                    fill="#C89B3C"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    AHR
+                  </text>
+                  <circle cx="92" cy="150" r="13" fill="#2a2a35" />
+                  <text
+                    x="92"
+                    y="154"
+                    fill="#C89B3C"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    AZ
+                  </text>
+                  <circle cx="122" cy="150" r="13" fill="#2a2a35" />
+                  <text
+                    x="122"
+                    y="154"
+                    fill="#C89B3C"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    SYN
+                  </text>
+                  <circle cx="152" cy="150" r="13" fill="#2a2a35" />
+                  <text
+                    x="152"
+                    y="154"
+                    fill="#C89B3C"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    YAS
+                  </text>
+
+                  <!-- A tier -->
+                  <rect
+                    x="16"
+                    y="186"
+                    width="208"
+                    height="56"
+                    rx="10"
+                    fill="#1a1a23"
+                    stroke="rgba(200,155,60,0.18)"
+                  />
+                  <rect x="16" y="186" width="28" height="56" rx="10" fill="#0AC8B9" />
+                  <text
+                    x="30"
+                    y="220"
+                    fill="#0a0a0f"
+                    font-size="16"
+                    font-weight="800"
+                    text-anchor="middle"
+                  >
+                    A
+                  </text>
+                  <circle cx="62" cy="214" r="13" fill="#2a2a35" />
+                  <text
+                    x="62"
+                    y="218"
+                    fill="#0AC8B9"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    ORI
+                  </text>
+                  <circle cx="92" cy="214" r="13" fill="#2a2a35" />
+                  <text
+                    x="92"
+                    y="218"
+                    fill="#0AC8B9"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    LB
+                  </text>
+                  <circle cx="122" cy="214" r="13" fill="#2a2a35" />
+                  <text
+                    x="122"
+                    y="218"
+                    fill="#0AC8B9"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    AKL
+                  </text>
+                  <circle cx="152" cy="214" r="13" fill="#2a2a35" />
+                  <text
+                    x="152"
+                    y="218"
+                    fill="#0AC8B9"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    VEX
+                  </text>
+
+                  <!-- B tier -->
+                  <rect
+                    x="16"
+                    y="250"
+                    width="208"
+                    height="56"
+                    rx="10"
+                    fill="#1a1a23"
+                    stroke="rgba(200,155,60,0.18)"
+                  />
+                  <rect x="16" y="250" width="28" height="56" rx="10" fill="#3f3f4a" />
+                  <text
+                    x="30"
+                    y="284"
+                    fill="#f1f5f9"
+                    font-size="16"
+                    font-weight="800"
+                    text-anchor="middle"
+                  >
+                    B
+                  </text>
+                  <circle cx="62" cy="278" r="13" fill="#2a2a35" />
+                  <text
+                    x="62"
+                    y="282"
+                    fill="#94a3b8"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    ZED
+                  </text>
+                  <circle cx="92" cy="278" r="13" fill="#2a2a35" />
+                  <text
+                    x="92"
+                    y="282"
+                    fill="#94a3b8"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    KAT
+                  </text>
+                  <circle cx="122" cy="278" r="13" fill="#2a2a35" />
+                  <text
+                    x="122"
+                    y="282"
+                    fill="#94a3b8"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    VIK
+                  </text>
+                  <circle cx="152" cy="278" r="13" fill="#2a2a35" />
+                  <text
+                    x="152"
+                    y="282"
+                    fill="#94a3b8"
+                    font-size="8"
+                    font-weight="700"
+                    text-anchor="middle"
+                  >
+                    TF
+                  </text>
+                </g>
+
+                <!-- patch card -->
+                <text
+                  x="16"
+                  y="334"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="9"
+                  letter-spacing="1.2"
+                >
+                  LATEST PATCH
+                </text>
+                <rect
+                  x="16"
+                  y="344"
+                  width="208"
+                  height="76"
+                  rx="10"
+                  fill="#1a1a23"
+                  stroke="rgba(200,155,60,0.18)"
+                />
+                <text
+                  x="28"
+                  y="366"
+                  fill="#f1f5f9"
+                  font-family="Inter"
+                  font-size="12"
+                  font-weight="700"
+                >
+                  14.11 — Mid scaling pass
+                </text>
+                <rect x="28" y="376" width="44" height="16" rx="8" fill="rgba(10,200,185,0.15)" />
+                <text
+                  x="50"
+                  y="387"
+                  fill="#0AC8B9"
+                  font-family="Inter"
+                  font-size="8"
+                  font-weight="700"
+                  text-anchor="middle"
+                >
+                  BUFF · 4
+                </text>
+                <rect x="78" y="376" width="44" height="16" rx="8" fill="rgba(200,155,60,0.15)" />
+                <text
+                  x="100"
+                  y="387"
+                  fill="#C89B3C"
+                  font-family="Inter"
+                  font-size="8"
+                  font-weight="700"
+                  text-anchor="middle"
+                >
+                  NERF · 3
+                </text>
+                <rect x="128" y="376" width="58" height="16" rx="8" fill="#2a2a35" />
+                <text
+                  x="157"
+                  y="387"
+                  fill="#94a3b8"
+                  font-family="Inter"
+                  font-size="8"
+                  font-weight="700"
+                  text-anchor="middle"
+                >
+                  AJUSTE · 6
+                </text>
+                <text x="28" y="410" fill="#6b7280" font-family="Inter" font-size="9">
+                  Read full notes →
+                </text>
+
+                <!-- tab bar -->
+                <rect x="0" y="438" width="240" height="42" fill="#0a0a0f" />
+                <line x1="0" y1="438" x2="240" y2="438" stroke="rgba(200,155,60,0.18)" />
+                <text
+                  x="32"
+                  y="472"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="7"
+                  text-anchor="middle"
+                >
+                  Home
+                </text>
+                <text
+                  x="80"
+                  y="472"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="7"
+                  text-anchor="middle"
+                >
+                  Esports
+                </text>
+                <circle cx="120" cy="458" r="3" fill="#C89B3C" />
+                <text
+                  x="120"
+                  y="472"
+                  fill="#C89B3C"
+                  font-family="Inter"
+                  font-size="7"
+                  text-anchor="middle"
+                  font-weight="700"
+                >
+                  Meta
+                </text>
+                <text
+                  x="160"
+                  y="472"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="7"
+                  text-anchor="middle"
+                >
+                  Fantasy
+                </text>
+                <text
+                  x="208"
+                  y="472"
+                  fill="#6b7280"
+                  font-family="Inter"
+                  font-size="7"
+                  text-anchor="middle"
+                >
+                  Profile
+                </text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" aria-label="Features">
+        <div class="container">
+          <h2>What's inside</h2>
+          <p class="section-lede">
+            Independent stats, patch tracking, and a friends-only fantasy mode for League of Legends
+            esports — all in a single app on iOS, Android, and the web.
+          </p>
+          <div class="features">
+            <div class="feature">
+              <div class="feature-icon">1</div>
+              <h3>Esports profiles</h3>
+              <p>
+                Browse pro players and teams across the major regional leagues. Win/loss records,
+                KDA, CS/min, vision and kill participation — sourced from public esports databases.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">2</div>
+              <h3>Patches &amp; tier list</h3>
+              <p>
+                Track every game patch with buffs, nerfs and adjustments per champion, plus a
+                community-oriented tier list by role and lane.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">3</div>
+              <h3>Free fantasy mode</h3>
+              <p>
+                Draft a roster of pro players and compete with friends across a tournament. Free to
+                play — no purchases, no wagering, no real-money prizes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="legal" aria-label="Legal and disclaimers">
+        <div class="container">
+          <h2>Legal</h2>
+          <p class="section-lede">
+            LoL Fantasy is an independent project built by fans. We respect Riot Games' brand and
+            the League of Legends community.
+          </p>
+          <div class="legal-callout">
+            <strong>LoL Fantasy isn't endorsed by Riot Games</strong> and doesn't reflect the views
+            or opinions of Riot Games or anyone officially involved in producing or managing League
+            of Legends. League of Legends and Riot Games are trademarks or registered trademarks of
+            Riot Games, Inc.
+            <div class="legal-links">
+              <a href="privacy.html">Privacy Policy</a>
+              <a href="terms.html">Terms of Service</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" aria-label="Contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <p class="section-lede">
+            For privacy, legal, security, or product questions, reach out by email. We aim to
+            respond within five business days.
+          </p>
+          <div class="contact-card">
+            <span class="label">Email</span>
+            <a class="email" href="mailto:giustino.jose.graterol@gmail.com"
+              >giustino.jose.graterol@gmail.com</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div>&copy; 2026 LoL Fantasy. All rights reserved.</div>
+        <div>
+          <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> ·
+          <a href="https://github.com/GiustinoGraterol/LoL-Fantasy">Source</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

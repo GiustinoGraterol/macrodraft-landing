@@ -1,0 +1,1 @@
+Placeholder for Riot Games domain ownership verification. Replace the entire contents of this file with the verification token provided by Riot in the developer portal, then redeploy. Do not delete the file path: it must remain reachable at https://<product-url>/riot.txt.
